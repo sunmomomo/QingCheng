@@ -1,0 +1,16 @@
+platform:ios,'7.0'
+
+target 'StaffHelper' do
+pod 'SensorsAnalyticsSDK'
+pod 'MBProgressHUD'
+pod 'AFNetworking'
+pod 'MJRefresh'
+pod 'WebViewJavascriptBridge','~>4.1.5' 
+pod 'IQKeyboardManager' 
+pod 'UMengAnalytics-NO-IDFA'
+pod 'AMap2DMap'
+pod 'AMapLocation'
+pod 'AMapSearch'
+pod 'tingyunApp'
+pod 'SDWebImage'
+end

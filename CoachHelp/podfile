@@ -1,0 +1,18 @@
+platform:ios,'7.0'
+
+target 'CoachHelp' do
+pod 'SensorsAnalyticsSDK'
+pod 'MBProgressHUD'
+pod 'AFNetworking'
+pod 'MJRefresh'
+pod 'MOBFoundation'
+pod 'SDWebImage'
+pod 'WebViewJavascriptBridge','~>4.1.5'
+pod 'IQKeyboardManager'
+pod 'tingyunApp'
+pod 'UMengAnalytics-NO-IDFA'
+pod 'AMap2DMap'
+pod 'AMapLocation' 
+pod 'AMapSearch'
+end
+
