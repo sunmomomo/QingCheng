@@ -1,0 +1,37 @@
+workspace 'QingCheng.xcworkspace'
+
+target 'CoachHelp' do
+  platform:ios,'7.0'
+  project 'CoachHelp/CoachHelp.xcodeproj'
+   pod 'SensorsAnalyticsSDK'
+   pod 'MBProgressHUD' 
+   pod 'AFNetworking'
+   pod 'MJRefresh'
+   pod 'MOBFoundation' 
+   pod 'SDWebImage'
+   pod 'WebViewJavascriptBridge','~>4.1.5'
+   pod 'IQKeyboardManager' 
+   pod 'tingyunApp' 
+   pod 'UMengAnalytics-NO-IDFA'
+   pod 'AMap2DMap'
+   pod 'AMapLocation' 
+   pod 'AMapSearch'
+end 
+
+target 'StaffHelper' do
+  platform:ios,'7.0'
+  project 'StaffHelper/StaffHelper.xcodeproj'
+   pod 'SensorsAnalyticsSDK'
+   pod 'MBProgressHUD'
+   pod 'AFNetworking'
+   pod 'MJRefresh'
+   pod 'WebViewJavascriptBridge','~>4.1.5'
+   pod 'IQKeyboardManager'
+   pod 'UMengAnalytics-NO-IDFA'
+   pod 'AMap2DMap'
+   pod 'AMapLocation'
+   pod 'AMapSearch'
+   pod 'tingyunApp'
+   pod 'SDWebImage'
+end
+
